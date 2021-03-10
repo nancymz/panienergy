@@ -14,7 +14,7 @@ Open the UI in http://localhost:3000/
 Create a DB and collection MongoDB.  
 I created a DB and collection in MongoDB Atlas 
 
-created a .env file under src/ folder add the DB connection string obtained while setting up the DB.
+created a .env file under backend/ folder add the DB connection string obtained while setting up the DB.
 
 e.g: DATABASE=mongodb+srv://<dbuser>:<Password>@cluster0.lz9k7.mongodb.net/<DATABASE_NAME>?authSource=admin&replicaSet=atlas-km3jw0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
 
