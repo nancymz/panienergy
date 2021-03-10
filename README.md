@@ -4,6 +4,7 @@ Subscription preferences UI and API.
 UI shows the preferences fetched via backend. 
 
 # Frontend
+This is a react app.
 
 - Install node 
 - Run npm install
@@ -12,6 +13,7 @@ UI shows the preferences fetched via backend.
 Open the UI in http://localhost:3000/
 
 # Backend
+Backend API is developed usin Node Framework and Express server. Database is MongoDB.
 
 Create a DB and collection MongoDB.  
 I created a DB and collection in MongoDB Atlas 
