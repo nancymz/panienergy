@@ -23,6 +23,37 @@ e.g: DATABASE=mongodb+srv://<dbuser>:<Password>@cluster0.lz9k7.mongodb.net/<DATA
 - Run npm install --save
 - Run npm start
 - Server should be running on port 3001
+## Schema
+When you add the Subscriptions using below APIs please follow the model below
+
+ `new mongoose.Schema({
+    name:{
+        type: String,
+        required: true,
+       // unique: true,
+    },
+    isRoot:{
+        type:Boolean
+    },
+    category:{
+        type:String
+    },
+    isParent:{
+        type: Boolean,
+      //  required: true,
+    },
+    hasChildren:{
+        type:Boolean,
+        required: true,
+    },
+   children:
+           [this] 
+    ,
+    price:{
+        type: Number
+    }
+})`
+
 
 # Backend API 
 1. POST http://localhost:3001/create
