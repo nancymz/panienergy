@@ -21,7 +21,9 @@ Server should be running on port 3001
 
 # Backend API 
 POST http://localhost:3001/create
+
 GET http://localhost:3001/get
+
 DELETE http://localhost:3001/delete/<name of the Subscription>
   
   sample data :
