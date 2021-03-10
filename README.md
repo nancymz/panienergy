@@ -3,24 +3,24 @@ Subscription preferences UI and API
 
 # Frontend
 
-Install node 
-Run npm install
-Run npm start 
+- Install node 
+- Run npm install
+- Run npm start 
 
 Open the UI in http://localhost:3000/
 
 # Backend
 
-Create a DB and collection MongoDB 
+Create a DB and collection MongoDB.  
 I created a DB and collection in MongoDB Atlas 
 
-create a .env add the DB connection string obtained while setting up the DB.
+created a .env file under src/ folder add the DB connection string obtained while setting up the DB.
 
 e.g: DATABASE=mongodb+srv://<dbuser>:<Password>@cluster0.lz9k7.mongodb.net/<DATABASE_NAME>?authSource=admin&replicaSet=atlas-km3jw0-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true
 
-..* Run npm install --save
-..* Run npm start
-..* Server should be running on port 3001
+- Run npm install --save
+- Run npm start
+- Server should be running on port 3001
 
 # Backend API 
 1. POST http://localhost:3001/create
