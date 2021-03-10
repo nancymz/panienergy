@@ -1,5 +1,7 @@
 # panienergy
-Subscription preferences UI and API
+Subscription preferences UI and API.
+
+UI shows the preferences fetched via backend. 
 
 # Frontend
 
