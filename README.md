@@ -1,7 +1,7 @@
 # panienergy
 Subscription preferences UI and API
 
-#Frontend
+# Frontend
 clone the code 
 Install node 
 Run npm init
@@ -9,7 +9,7 @@ Run npm start
 
 Open the UI in http://localhost:3000/
 
-#Backend
+# Backend
 
 Create a DB and collection MongoDB 
 I created a DB and collection in MongoDB Atlas 
